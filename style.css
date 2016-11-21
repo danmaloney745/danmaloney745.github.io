@@ -2,7 +2,7 @@
 
 /* Standards for the web page */
 body {
-    background: white;
+    background: #D5D5D5;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
     color: black;
@@ -11,23 +11,26 @@ body {
 
 #side-bar {
     position: absolute;
-    width: 200px;
-    height: 400px;
+    width: 29.3680297%;
+    height: 1400px;
     float: left;
+    background: #9099A2;
+    font-size: 18px;
+    margin: 5px;
 }
 
 #content {
     position: relative;
-    width: 600px;
-    background: #ffffff;
+    width: 63.197026%;
     height: 400px;
     margin: 0 auto;
+    float: right;
 }
 
 
 /* Edit email links */
 #email {
-    color: #9099A2;
+    color: #6D7993;
     font-size: 100%;
 }
 
@@ -37,7 +40,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:#333;
+    background-color:#96858F;
 }
 
 #nav li {
@@ -60,12 +63,12 @@ body {
 /*Link Decoration */
 a:link {
     text-decoration: none;
-    color: #6B238E;
+    color: #9099A2;
 }
 
 a:visited {
     text-decoration: none;
-    color: #6B238E;
+    color: #6D7993;
 }
 
 a:hover{
@@ -91,7 +94,7 @@ a {
   font-size: 16px;
   text-transform: uppercase;
   font-weight: 700;
-  margin: 0 auto 40px;
+  margin: 0 auto 10px;
 }
 /* End Profile Image Styling */
 
