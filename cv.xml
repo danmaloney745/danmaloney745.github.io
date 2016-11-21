@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cv>
+  <personal-details>
+    <name>
+      <fName>Daniel</fName>
+      <lName>Maloney</lName>
+    </name>
+    <dob>1993-04-22</dob>
+    <contact-details>
+      <email>danielmaloneygti@gmail.com</email>
+      <mobile>07597701962</mobile>
+    </contact-details>
+    <address>
+      <house-num>78A</house-num>
+      <street>Green Lane</street>
+      <city>London</city>
+      <post-code>HA6 2XS</post-code>
+    </address>
+  </personal-details>
+  <experience>
+    <jobs>
+      <job>
+        <spartaglobal>
+          <jobTitle>Web Developer</jobTitle>
+          <start-date>2016-11-07</start-date>
+          <end-date>Ongoing</end-date>
+          <skills>
+            <skill>Node JS</skill>
+            <skill>JavaScript</skill>
+            <skill>HTML</skill>
+            <skill>CSS</skill>
+          </skills>
+        </spartaglobal>
+      </job>
+      <job>
+        <claregalway>
+          <jobTitle>Food and Beverage Assistant</jobTitle>
+          <start-date>2014-12-10</start-date>
+          <end-date>2016-12-09</end-date>
+          <skills>
+            <skill>Serving Food</skill>
+            <skill>Serving Drinks</skill>
+            <skill>Communication</skill>
+          </skills>
+        </claregalway>
+      </job>
+      <job>
+        <Apple>
+          <jobTitle>At Home Advisor</jobTitle>
+          <start-date>2014-07-16</start-date>
+          <end-date>2014-10-23</end-date>
+          <skills>
+            <skill>Communication</skill>
+            <skill>Troubleshooting</skill>
+          </skills>
+        </Apple>
+        </job>
+    </job>
+  </experience>
+  <education>
+    <university>
+      <uni-name>Galway-Mayo Institute of Technology</uni-name>
+      <course-title>B.Sc.Computing in Software Development</course-title>
+        <modules>
+          <module>Object-Orientated Design</module>
+          <module>Semantic Web</module>
+          <module>Distributed Systems</module>
+        </modules>
+    </university>
+    <college>
+      <college-name>Galway Institute of Technology</college-name>
+      <course-title>Information Technology</course-title>
+        <modules>
+          <module>Computer Architecture</module>
+          <module>Computer Programming</module>
+          <module>Web Development</module>
+        </modules>
+    </college>
+    <school>
+      <school-name>Mercy College Woodford</school-name>
+      <school-title>Leaving Certificate</school-title>
+      <grades>
+        <grade>
+          <lesson>Maths</lesson>
+          <grade>B1</grade>
+        </grade>
+        <grade>
+          <lesson>English</lesson>
+          <grade>A2</grade>
+        </grade>
+        <grade>
+          <lesson>Physics</lesson>
+          <grade>B2</grade>
+        </grade>
+      </grades>
+    </school>
+  </education>
+</cv>

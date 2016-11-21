@@ -1,0 +1,105 @@
+/* Start of the style sheet */
+
+/* Standards for the web page */
+body {
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: black;
+    text-align: justify;
+}
+
+#side-bar {
+    position: absolute;
+    width: 200px;
+    height: 400px;
+    float: left;
+}
+
+#content {
+    position: relative;
+    width: 600px;
+    background: #ffffff;
+    height: 400px;
+    margin: 0 auto;
+}
+
+
+/* Edit email links */
+#email {
+    color: #9099A2;
+    font-size: 100%;
+}
+
+/* Navigation Menu Styling */
+#nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#333;
+}
+
+#nav li {
+    float: left;
+}
+
+#nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#nav li a:hover {
+    background-color: #111;
+}
+/* End Navigation Menu Styling */
+
+/*Link Decoration */
+a:link {
+    text-decoration: none;
+    color: #6B238E;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #6B238E;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a {
+    padding: 2px;
+    font-size: 150%;
+}
+/* End of Link styling */
+
+/* Profile Image Styling */
+.circle {
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  border-radius: 50%; /* the magic */
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0 auto 40px;
+}
+/* End Profile Image Styling */
+
+
+/* Media Links Styling*/
+.media-link {
+  width: 38px;
+  height: 38px;
+  margin: 0 5px;
+}
+/* End Media Links Styling */
