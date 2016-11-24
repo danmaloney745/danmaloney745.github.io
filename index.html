@@ -5,50 +5,64 @@
         <!-- Title of Web Page -->
         <title>Daniel Maloney CV</title>
 
-         <!--link the css file-->
+         <!--link the JavaScript files-->
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+
+         <!-- Load Style Sheets -->
+         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
          <link rel="stylesheet" type="text/css" href="style.css">
-         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <!-- Optional Bootstrap theme -->
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     </head>
 
     <body>
         <main class="cv" role="main">
-             <!-- Navigation -->
-            <nav id="main-nav" role="navigation">
-                <ul id=nav>
-                    <li>
-                        <a href="#contact-details">Contact</a>
-                    </li>
-                    <li>
-                        <a href="#profile">Profile</a>
-                    </li>
-                    <li>
-                        <a href="#experience">Experience</a>
-                    </li>
-                    <li>
-                        <a href="#education">Education</a>
-                    </li>
+             <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Daniel Maloney</a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#contact-detials">Profile<span class="sr-only">(current)</span></a></li>
+                        <li><a href="#contact-details">Contact Details</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                    </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
             </nav>
 
             <!-- Personal Details -->
-            <aside id="side-bar" role="contentinfo">
-                <!--adding the profile picture-->
-                <img class="profile-image circle" src="2e3415a.jpg" />
-                <h2>Daniel Maloney</h2>
-                <p><em>1993-04-22</em></p>
-            
-                <!-- Contact Details -->
-                <div id="contact-details">
-                    <p id="email">danielmaloneygti@gmail.com</p>
-                    <p>07597701962</p>
+            <div class="jumbotron vertical-center" role="contentinfo">
+                <div class=container>
+                    <!--adding the profile picture-->
+                    <img class="profile-image circle" src="2e3415a.jpg"/>
                 </div>
-                <!-- End Contact Details -->
+            </div>
+                
+            <!-- Contact Details -->
+            <div id="contact-details">
+                <p id="email">danielmaloneygti@gmail.com</p>
+                <p>07597701962</p>
+            </div>
+            <!-- End Contact Details -->
 
-                <!-- Address -->
-                <div id="address">
-                    <p>78A Green Lane London HA6 2XS</p>
-                </div>
-                <!-- End Address -->
-            </aside>
+            <!-- Address -->
+            <div id="address">
+                <p>78A Green Lane London HA6 2XS</p>
+            </div>
+            <!-- End Address -->
             <!-- End Personal Detials -->
 
             <div id="content">
@@ -181,6 +195,8 @@
             <!-- End Footer -->
         </main>
         <!-- End CV -->
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
     </body>
 
 </html>

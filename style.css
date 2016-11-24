@@ -4,12 +4,11 @@
 body {
     background: #D5D5D5;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
     color: #6D7993;
     text-align: justify;
 }
 
-#side-bar {
+/*#side-bar {
     position: absolute;
     width: 29.3680297%;
     height: 1400px;
@@ -26,7 +25,7 @@ body {
     height: 400px;
     margin: 0 auto;
     float: right;
-}
+}*/
 
 
 /* Edit email links */
@@ -82,8 +81,21 @@ a {
 }
 /* End of Link styling */
 
+/* jumbotron styling */
+.jumbotron { 
+    width: 100%;
+    height: 250px;
+}
+
+.vertical-center {
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+}
+/* end jumbotron styling */ 
+
 /* Profile Image Styling */
-.circle {
+.profile-image.circle {
   width: 200px;
   height: 200px;
   line-height: 200px;
