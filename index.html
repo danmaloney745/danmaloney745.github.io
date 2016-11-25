@@ -36,7 +36,7 @@
                         <li class="active"><a href="#contact-detials">Profile<span class="sr-only">(current)</span></a></li>
                         <li><a href="#contact-details">Contact Details</a></li>
                         <li><a href="#experience">Experience</a></li>
-                        <li><a href="#education">Education</a></li>
+                        <li><a id="educationLink" href="#education">Education</a></li>
                         <li><a href="#projects">Projects</a></li>
                     </ul>
                     </div><!-- /.navbar-collapse -->
@@ -46,7 +46,9 @@
             <!-- Personal Details -->
             <div class="container">
                 <div class="jumbotron" id="welcome-tron" role="contentinfo">
-                    <div class=img></div>
+                    <div class=img>
+                        <!--<image src="imgs/code-image.jpg" />-->
+                    </div>
                     <div class="container">
                         <div class="row">
                             <h4>Welcome, I'm Daniel Maloney
@@ -71,31 +73,51 @@
                                 <a class="media-link" href="https://medium.com/@danielmaloneygti"><img src="imgs/Medium.png" /></a>
                             </div>
                         </div>
+                        <hr />
                     </div>
                 </div>  
             </div>
 
             <div class="container">
-                <div class="jumbotron vertical-center" id="personal-picture" role="contentinfo">
-                    <!--adding the profile picture-->
-                    <img class="circle" src="2e3415a.jpg"/>
+                <div class="jumbotron" id="personal-picture" role="contentinfo">
+                    <div class="row">
+                        <div class=img>
+                            <!--<img src="imgs/jumbo-image.jpg"/>-->
+                        </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <!--adding the profile picture-->
+                                <img class="circle" src="2e3415a.jpg"/>
+                            </div>
+                            <div class="col-sm-3">
+                                <h3>Skills</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container personal-details" role="contentinfo">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <hr />
+                        <p id="email">danielmaloneygti@gmail.com</p>
+                        <hr />
+                    </div>
+                    <div class="col-sm-4">
+                        <hr />
+                        <p id="phone">07597701962</p>
+                        <hr />
+                    </div>
+                    <div class="col-sm-4">
+                        <hr />
+                        <p id="location">Watford, London</p>
+                        <hr />
+                    </div>
                 </div>
             </div>
                 
-            <!-- Contact Details -->
-            <div id="contact-details">
-                <p id="email">danielmaloneygti@gmail.com</p>
-                <p>07597701962</p>
-            </div>
-            <!-- End Contact Details -->
-
-            <!-- Address -->
-            <div id="address">
-                <p>78A Green Lane London HA6 2XS</p>
-            </div>
-            <!-- End Address -->
-            <!-- End Personal Detials -->
-
             <div id="content">
                 <!-- Profile Inroduction -->
                 <div id="profile" role="contentinfo">

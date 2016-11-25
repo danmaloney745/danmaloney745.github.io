@@ -2,9 +2,9 @@
 
 /* Standards for the web page */
 body {
-    background: #D5D5D5;
+    background: white;
     font-family: Arial, Helvetica, sans-serif;
-    color: #6D7993;
+    color: white;
     text-align: justify;
     padding-top: 70px;
 }
@@ -28,16 +28,7 @@ body {
     float: right;
 }*/
 
-
-/* Edit email links */
-#email {
-    color: #96858F;
-    font-size: 100%;
-}
-
 /* Navigation Menu Styling */
-
-
 #nav {
     list-style-type: none;
     margin: 0;
@@ -91,7 +82,7 @@ a {
 /* jumbotron styling */
 .jumbotron {
     position: relative;
-    padding: 50px;
+    padding: 30px;
     width: 100%;
     height: 350px;
     text-align: center;
@@ -116,24 +107,31 @@ a {
     opacity: 0.75;
     color: #fff;
     background: #000;
-    background: url(imgs/code-image.jpg);
     width: 100%;
     height: 100%;
-    background-size: cover;
-    overflow: hidden;
+    /*background-size: cover;*/
+    /*overflow: hidden;*/
     position: absolute;
     top: 0; left: 0;
     z-index: 1;
 }
 
+.jumbotron .img img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    /*position: absolute;*/
+}
+
 #welcome-tron h4 {
-    color: coral;
+    color: white;
     font-weight: 800;
     font-size: 4vw;
 }
 
 #welcome-tron small { 
-    color: black;
+    color: white;
     display: block;
     font-weight: 300;
     font-size: 2vw;
@@ -141,15 +139,9 @@ a {
 }
 
 /* Profile Image Styling */
-#personal-picture {
-    background-image: url(imgs/jumbo-image.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .circle {
-  width: 320px;
-  height: 320px;
+  width: 300px;
+  height: 300px;
   line-height: 200px;
   border-radius: 50%;
   -moz-border-radius: 50%;
@@ -163,6 +155,14 @@ a {
 }
 /* End Profile Image Styling */
 
+/* Personal Details styling */
+.personal-details {
+    opacity: 0.75;
+    background-color: #000;
+    color: white;
+}
+
+/* End Personal Detials styling */
 
 /* Media Links Styling*/
 .media-link {
