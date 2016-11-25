@@ -16,4 +16,9 @@ $(document).ready(function(){
             }, 500);
     });
 
+    $('.progress .progress-bar').css("width",
+                function() {
+                    return $(this).attr("aria-valuenow") + "%";
+                }
+        )
 });
