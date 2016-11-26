@@ -173,16 +173,28 @@ a {
 
 /* Progress Bar styling */
 .progress {
-  height: 35px;
-
+  height: 25px;
 }
+
+div .progress {
+    background: black;
+    opacity: 0.75;
+    margin-left: 40px;
+}
+
+.progress .progress-bar-custom {
+    background: white;
+}
+
 .progress .skill {
   font: normal 12px "Open Sans Web";
-  line-height: 35px;
+  line-height: 25px;
   padding: 0;
   margin: 0 0 0 20px;
   text-transform: uppercase;
+  color: black;
 }
+
 .progress .skill .val {
   float: right;
   font-style: normal;
