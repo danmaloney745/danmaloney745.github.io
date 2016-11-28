@@ -2,9 +2,9 @@
 
 /* Standards for the web page */
 body {
-    background: white;
+    background: black;
     font-family: Arial, Helvetica, sans-serif;
-    color: black;
+    color: white;
     text-align: justify;
     padding-top: 70px;
 }
@@ -206,3 +206,10 @@ div .progress {
   transition-duration: 3s;
 }
 /*end progress bar styling
+
+/* College Image Styling */
+.college-img { 
+    width: 125px;
+    height: 125px;
+}
+
