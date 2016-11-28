@@ -4,29 +4,27 @@
 body {
     background: white;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: black;
     text-align: justify;
     padding-top: 70px;
 }
 
-/*#side-bar {
-    position: absolute;
-    width: 29.3680297%;
-    height: 1400px;
-    float: left;
-    background: #6D7993;
-    color: #D5D5D5;
-    font-size: 18px;
-    margin: 5px;
+h3 {
+    color: white; 
 }
 
-#content {
-    position: relative;
-    width: 63.197026%;
-    height: 400px;
-    margin: 0 auto;
-    float: right;
-}*/
+h4 {
+    color: white; 
+}
+
+h4 small {
+    color: white;
+    display: block;
+}
+
+img {
+    margin-bottom: 15px;
+}
 
 /* Navigation Menu Styling */
 #nav {
@@ -125,14 +123,11 @@ a {
 }
 
 #welcome-tron h4 {
-    color: white;
     font-weight: 800;
     font-size: 4vw;
 }
 
 #welcome-tron small { 
-    color: white;
-    display: block;
     font-weight: 300;
     font-size: 2vw;
     padding-top: 0.5%;
@@ -162,6 +157,11 @@ a {
     color: white;
 }
 
+#personal-info {
+    text-align: left;
+    margin-left: 40px;
+    padding-left: -10px;
+}
 /* End Personal Detials styling */
 
 /* Media Links Styling*/
@@ -174,12 +174,12 @@ a {
 /* Progress Bar styling */
 .progress {
   height: 25px;
+  margin: 25px 0 20px 40px;
 }
 
 div .progress {
     background: black;
-    opacity: 0.75;
-    margin-left: 40px;
+    /*opacity: 0.75;*/
 }
 
 .progress .progress-bar-custom {
