@@ -7,10 +7,32 @@ $(document).ready(function(){
   	    $('#myModal').modal({show:true});
     });
 
+    /*Navbar Navigation Functions */
     $("#educationLink").click(function (){
         var offset = 20; 
             $('html, body').animate({
-                scrollTop: $("#education").offset().top + offset
+                scrollTop: $("#CV").offset().top + offset
+            }, 500);
+    });
+
+    $("#projectsLink").click(function (){
+        var offset = 20; 
+            $('html, body').animate({
+                scrollTop: $("#projects").offset().top + offset
+            }, 500);
+    });
+
+    $("#expeienceLink").click(function (){
+        var offset = 20; 
+            $('html, body').animate({
+                scrollTop: $("#experience").offset().top + offset
+            }, 500);
+    });
+
+    $("#contactDetailsLink").click(function (){
+        var offset = 20; 
+            $('html, body').animate({
+                scrollTop: $("#contact-details").offset().top + offset
             }, 500);
     });
 

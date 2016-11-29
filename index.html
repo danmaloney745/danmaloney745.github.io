@@ -33,11 +33,11 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#contact-detials">Profile<span class="sr-only">(current)</span></a></li>
-                        <li><a href="#contact-details">Contact Details</a></li>
-                        <li><a href="#experience">Experience</a></li>
+                        <li class="active"><a href="#contact-details">Profile<span class="sr-only">(current)</span></a></li>
+                        <li><a id="#contactDetailsLink" href="#contact-details">Contact Details</a></li>
+                        <li><a id="#experienceLink" href="#experience">Experience</a></li>
                         <li><a id="educationLink" href="#education">Education</a></li>
-                        <li><a href="#projects">Projects</a></li>
+                        <li><a id="#projectsLink" href="#projects">Projects</a></li>
                     </ul>
                     </div><!-- /.navbar-collapse -->
                 </div><!-- /.container-fluid -->
@@ -125,7 +125,7 @@
                 </div>
             </div>
 
-            <div class="container personal-details" role="contentinfo">
+            <div class="container" id="contact-details" role="contentinfo">
                 <div class="row">
                     <div class="col-sm-4">
                         <hr />
@@ -184,7 +184,7 @@
             
             <div class="container" role="contentinfo">
                 <div class="row">
-                    <div class="CV">
+                    <div id="CV">
                         <div class="col-sm-4" id="college-icons">
                             <hr />
                             <img class="college-img" src="imgs/gmit.jpg" />
@@ -216,7 +216,7 @@
                 </article>
             </div>-->
             <!-- End Profile Introduction -->
-            <div class="container">
+            <div class="container" id="projects">
                 <div class="row">
                     <hr />
                     <div class="col-sm-4">
@@ -228,16 +228,20 @@
                     <div class="col-sm-4">
                         <a title="java word cloud" href="https://github.com/danmaloney745/rock-paper-scissors"> <img class="thumbnail img-responsive" src="imgs/rock-paper-scissors.png" /></a>
                     </div>
-                    <div class="col-sm-4">
-                        <a title="java word cloud" href="#"> <img class="thumbnail img-responsive" src="imgs/java-word-cloud.png" /></a>
-                    </div>
-                    <div class="col-sm-4">
-                        <a title="java word cloud" href="#"> <img class="thumbnail img-responsive" src="imgs/java-word-cloud.png" /></a>
-                    </div>
-                    <div class="col-sm-4">
-                        <a title="java word cloud" href="#"> <img class="thumbnail img-responsive" src="imgs/java-word-cloud.png" /></a>
-                    </div>
                 </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <a title="java word cloud" href="https://github.com/danmaloney745/Word-Cloud-Api"> <img class="thumbnail img-responsive" src="imgs/java-word-cloud.png" /></a>
+                    </div>
+                    <div class="col-sm-4">
+                        <a title="java word cloud" href="#"> <img class="thumbnail img-responsive" src="imgs/java-word-cloud.png" /></a>
+                    </div>
+                    <div class="col-sm-4">
+                        <a title="java word cloud" href="#"> <img class="thumbnail img-responsive" src="imgs/java-word-cloud.png" /></a>
+                    </div>
+                    <hr />
+                </div>
+            </div>
 
                 <div tabindex="-1" class="modal fade" id="myModal" role="dialog">
                     <div class="modal-dialog">

@@ -221,3 +221,8 @@ div .progress {
     margin-bottom:6px;
 }
 
+.img-responsive {
+    max-height: 100%;
+    height: 190px;
+}
+
