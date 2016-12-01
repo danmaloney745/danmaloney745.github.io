@@ -11,6 +11,8 @@
          <!-- Load Style Sheets -->
          <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
          <link rel="stylesheet" type="text/css" href="style.css">
+         <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+
          <!-- Optional Bootstrap theme -->
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     </head>
@@ -51,7 +53,7 @@
                     </div>
                     <div class="container">
                         <div class="row">
-                            <h4 class="welcome-title">Welcome, I'm Daniel Maloney
+                            <h4 class="welcome-title aniamted shake">Welcome, I'm Daniel Maloney
                                 <small>“Websites should look good from the inside and out.” ― Paul Cookson</small>
                             </h4>
                             <hr />
@@ -87,37 +89,18 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-sm-12">
-                                    <div id="job-title">
-                                        <h3>Daniel Maloney</h3>
-                                        <h4>Web Developer at Sparta Global</h4>
+                                    <div>
+                                        <h4 class="welcome-title text-left">Daniel Maloney
+                                            <small class="text-left">Web Developer at Sparta Global</small>
+                                        </h4>
                                     </div>
+                                </div>
                                 <div class="col-sm-3">
                                     <!--adding the profile picture-->
                                     <img class="circle" src="2e3415a.jpg"/>
                                 </div>
 
                                 <div class="col-sm-9">
-                                    <!-- Skill Bars -->
-                                    <div class="progress skill-bar">
-                                        <div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                                            <span class="skill">HTML <i class="val"></i></span>
-                                        </div>
-                                    </div>
-                                    <div class="progress skill-bar">
-                                        <div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" >
-                                            <span class="skill">CSS<i class="val"></i></span>
-                                        </div>
-                                    </div>
-                                    <div class="progress skill-bar">
-                                        <div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                                            <span class="skill">Java<i class="val"></i></span>
-                                        </div>
-                                    </div>
-                                    <div class="progress skill-bar">
-                                        <div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
-                                            <span class="skill">JavaScript<i class="val"></i></span>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -254,6 +237,28 @@
                 </div>
             </div>
 
+            <div class="container">
+                <form>
+                    <div class="form-group row">
+                        <label for="inputName" class="col-sm-2 col-form-label">Name</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="inputName" placeholder="Name">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="messageTextarea" class="col-sm-2 col-form-label">Message</label>
+                        <div class="col-sm-10">
+                            <textarea class="form-control" id="messageTextarea" placeholder="Message:" rows="3"></textarea>
+                        </div>
+                    </div>
+                </form>
+            </div>
             <!-- Footer -->
             <footer>
                 <div class="container">

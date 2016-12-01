@@ -13,17 +13,16 @@ h3, h4 {
     color: coral; 
 }
 
-h4 small {
-    color: white;
-    display: block;
-}
-
 img {
     margin-bottom: 15px;
 }
 
 .welcome-title {
     color: aqua;
+}
+
+#email {
+    color: coral;
 }
 
 /* Navigation Menu Styling */
@@ -123,30 +122,23 @@ a {
     /*position: absolute;*/
 }
 
-#welcome-tron h4 {
+.welcome-title {
     font-weight: 800;
     font-size: 4vw;
+    color: aqua;
 }
 
-#welcome-tron small { 
+.welcome-title small { 
     font-weight: 300;
     font-size: 2vw;
     padding-top: 0.5%;
+    display: block;
+    color: white;
 }
 
 /* Profile Styling */
-#job-title h3{
-    color: aqua;
+.text-left {
     text-align: left;
-    text-decoration-style: solid;
-    font-size: 40px;
-}
-
-#job-title h4{
-    color: white;
-    text-align: left;
-    text-decoration-style: solid;
-    font-size: 30px;
 }
 
 .circle {
@@ -196,42 +188,6 @@ a {
   padding-right: 0.5%;
 }
 /* End Media Links Styling */
-
-/* Progress Bar styling */
-.progress {
-  height: 25px;
-  margin: 25px 0 20px 40px;
-}
-
-div .progress {
-    background: black;
-    /*opacity: 0.75;*/
-}
-
-.progress .progress-bar-custom {
-    background: white;
-}
-
-.progress .skill {
-  font: normal 12px "Open Sans Web";
-  line-height: 25px;
-  padding: 0;
-  margin: 0 0 0 20px;
-  text-transform: uppercase;
-  color: black;
-}
-
-.progress .skill .val {
-  float: right;
-  font-style: normal;
-  margin: 0 20px 0 0;
-}
-
-.progress-bar {
-  text-align: left;
-  transition-duration: 3s;
-}
-/*end progress bar styling
 
 /* College Image Styling */
 .college-icon {
@@ -301,7 +257,7 @@ ol ol {
     left: -2.5em;
     top: 50%;
     margin-top: -1em;
-    background: coral;
+    background: aqua;
     height: 2em;
     width: 2em;
     line-height: 2em;
@@ -321,6 +277,6 @@ ol ol {
 
 .rectangle-list a:hover:after{
     left: -.5em;
-    border-left-color: coral;             
+    border-left-color: aqua;             
 }   
 
