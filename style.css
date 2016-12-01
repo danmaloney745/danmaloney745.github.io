@@ -2,19 +2,15 @@
 
 /* Standards for the web page */
 body {
-    background: black;
+    background: white;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: black;
     text-align: justify;
     padding-top: 70px;
 }
 
-h3 {
-    color: white; 
-}
-
-h4 {
-    color: white; 
+h3, h4 {
+    color: coral; 
 }
 
 h4 small {
@@ -24,6 +20,10 @@ h4 small {
 
 img {
     margin-bottom: 15px;
+}
+
+.welcome-title {
+    color: aqua;
 }
 
 /* Navigation Menu Styling */
@@ -83,6 +83,7 @@ a {
     padding: 30px;
     width: 100%;
     height: 350px;
+    height: 100%;
     text-align: center;
 }
 
@@ -133,7 +134,21 @@ a {
     padding-top: 0.5%;
 }
 
-/* Profile Image Styling */
+/* Profile Styling */
+#job-title h3{
+    color: aqua;
+    text-align: left;
+    text-decoration-style: solid;
+    font-size: 40px;
+}
+
+#job-title h4{
+    color: white;
+    text-align: left;
+    text-decoration-style: solid;
+    font-size: 30px;
+}
+
 .circle {
   width: 300px;
   height: 300px;
@@ -148,12 +163,12 @@ a {
   font-weight: 700;
   margin: 0 auto 10px;
 }
-/* End Profile Image Styling */
+/* End Profile Styling */
 
 /* Personal Details styling */
 .personal-details {
     opacity: 0.75;
-    background-color: #000;
+    background: #000;
     color: white;
 }
 
@@ -163,6 +178,17 @@ a {
     padding-left: -10px;
 }
 /* End Personal Detials styling */
+
+/* Contact Detials styling */
+#contact-details {
+    padding: 5px 15px 5px 15px;
+    /*background: rgba(0, 0, 0, 0.75);*/
+}
+
+.contact{
+    color: black;
+}
+/* End Contact Detials Styling */
 
 /* Media Links Styling*/
 .media-link {
@@ -208,9 +234,14 @@ div .progress {
 /*end progress bar styling
 
 /* College Image Styling */
+.college-icon {
+    width: 50%;
+    margin: 0 auto;
+}
+
 .college-img { 
-    width: 125px;
-    height: 125px;
+    width: 100%;
+    height: 100%;
 }
 
 .modal-dialog {
@@ -230,4 +261,66 @@ div .progress {
   margin-top:10%;
   width:5%;
 }
+
+
+/* Ordered List Styling */
+ol {
+    counter-reset: li; /* Initiate a counter */
+    list-style: none; /* Remove default numbering */
+    *list-style: decimal; /* Keep using default numbering for IE6/7 */
+    font: 15px 'trebuchet MS', 'lucida sans';
+    padding: 0;
+    margin-bottom: 4em;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+ol ol {
+    margin: 0 0 0 2em; /* Add some left margin for inner lists */
+}
+
+.rectangle-list a{
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em .8em;
+    *padding: .4em;
+    margin: .5em 0 .5em 2.5em;
+    background: #ddd;
+    color: #444;
+    text-decoration: none;
+    transition: all .3s ease-out;   
+}
+
+.rectangle-list a:hover{
+    background: #eee;
+}   
+
+.rectangle-list a:before{
+    content: counter(li);
+    counter-increment: li;
+    position: absolute; 
+    left: -2.5em;
+    top: 50%;
+    margin-top: -1em;
+    background: coral;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.rectangle-list a:after{
+    position: absolute; 
+    content: '';
+    border: .5em solid transparent;
+    left: -1em;
+    top: 50%;
+    margin-top: -.5em;
+    transition: all .3s ease-out;               
+}
+
+.rectangle-list a:hover:after{
+    left: -.5em;
+    border-left-color: coral;             
+}   
 

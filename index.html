@@ -34,7 +34,7 @@
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="#contact-details">Profile<span class="sr-only">(current)</span></a></li>
-                        <li><a id="#contactDetailsLink" href="#contact-details">Contact Details</a></li>
+                        <li><a id="#contactLink" href="#contact-details">Contact Details</a></li>
                         <li><a id="#experienceLink" href="#experience">Experience</a></li>
                         <li><a id="educationLink" href="#education">Education</a></li>
                         <li><a id="#projectsLink" href="#projects">Projects</a></li>
@@ -51,7 +51,7 @@
                     </div>
                     <div class="container">
                         <div class="row">
-                            <h4>Welcome, I'm Daniel Maloney
+                            <h4 class="welcome-title">Welcome, I'm Daniel Maloney
                                 <small>“Websites should look good from the inside and out.” ― Paul Cookson</small>
                             </h4>
                             <hr />
@@ -79,44 +79,44 @@
             </div>
 
             <div class="container">
-                <div class="jumbotron" id="personal-picture" role="contentinfo">
+                <div class="jumbotron" id="personal-picture">
                     <div class="row">
                         <div class=img>
                             <!--<img src="imgs/jumbo-image.jpg"/>-->
                         </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-3">
-                                <!--adding the profile picture-->
-                                <img class="circle" src="2e3415a.jpg"/>
-                            </div>
-                            <div class="col-sm-3" id="personal-info">
-                                <h3>Daniel Maloney</h3>
-                                <h4>Web Developer at Sparta Global</h4>
-                                <h4>Graduated in Software Development</h4>
-                                <h4>Technology Enthusiast</h4>
-                            </div>
-                            <div class="col-sm-4">
-                                <!-- Skill Bars -->
-                                <div class="progress skill-bar">
-                                    <div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                                        <span class="skill">HTML <i class="val"></i></span>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div id="job-title">
+                                        <h3>Daniel Maloney</h3>
+                                        <h4>Web Developer at Sparta Global</h4>
                                     </div>
+                                <div class="col-sm-3">
+                                    <!--adding the profile picture-->
+                                    <img class="circle" src="2e3415a.jpg"/>
                                 </div>
-                
-                                <div class="progress skill-bar">
-                                    <div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" >
-                                        <span class="skill">CSS<i class="val"></i></span>
+
+                                <div class="col-sm-9">
+                                    <!-- Skill Bars -->
+                                    <div class="progress skill-bar">
+                                        <div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                                            <span class="skill">HTML <i class="val"></i></span>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="progress skill-bar">
-                                    <div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                                        <span class="skill">Java<i class="val"></i></span>
+                                    <div class="progress skill-bar">
+                                        <div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" >
+                                            <span class="skill">CSS<i class="val"></i></span>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="progress skill-bar">
-                                    <div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
-                                        <span class="skill">JavaScript<i class="val"></i></span>
+                                    <div class="progress skill-bar">
+                                        <div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                            <span class="skill">Java<i class="val"></i></span>
+                                        </div>
+                                    </div>
+                                    <div class="progress skill-bar">
+                                        <div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+                                            <span class="skill">JavaScript<i class="val"></i></span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -125,100 +125,101 @@
                 </div>
             </div>
 
-            <div class="container" id="contact-details" role="contentinfo">
-                <div class="row">
-                    <div class="col-sm-4">
-                        <hr />
-                        <img src="imgs/Paper-Plane.png" />
-                        <p id="email">danielmaloneygti@gmail.com</p>
-                        <hr />
-                    </div>
-                    <div class="col-sm-4">
-                        <hr />
-                        <img src="imgs/Phone.png" />
-                        <p id="phone">07597701962</p>
-                        <hr />
-                    </div>
-                    <div class="col-sm-4">
-                        <hr />
-                        <img src="imgs/Marker.png" />
-                        <p id="location">Watford, London</p>
-                        <hr />
-                    </div>
-                </div>
-            </div>
-
-            <div class="container" role="contentinfo">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <div class="frameworks">
+            <section id="contact-details" role="contentinfo">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4 contact">
                             <hr />
-                            <h3>Languages and Frameworks</h3>
-                            <ul>
-                                <li>Java</li>
-                                <li>C#</li>
-                                <li>JavaScript</li>
-                                <li>HTML5/CSS3</li>
-                                <li>Bootstrap</li>
-                                <li>jQuery</li>
-                            </ul>
+                            <div class="contact-item">
+                                <img src="imgs/Paper-Plane.png" />
+                                <p id="email">danielmaloneygti@gmail.com</p>
+                            </div>
                             <hr />
                         </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="tools">
+                        <div class="col-sm-4 contact">
                             <hr />
-                            <h3>Tools and Experience</h3>
-                            <ul>
-                                <li>Eclipse</li>
-                                <li>Linux</li>
-                                <li>Node</li>
-                                <li>Git</li>
-                                <li>Agile Methodologies</li>
-                            </ul>
+                            <div class="contact-item">
+                                <img src="imgs/Phone.png" />
+                                <p>07597701962</p>
+                            </div>
+                            <hr />
+                        </div>
+                        <div class="col-sm-4 contact">
+                            <hr />
+                            <div class="contact-item">
+                                <img src="imgs/Marker.png" />
+                                <p>Watford, London</p>
+                            </div>
                             <hr />
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
             
-            <div class="container" role="contentinfo">
-                <div class="row">
-                    <div id="CV">
-                        <div class="col-sm-4" id="college-icons">
+            <section id="skills" role="contentinfo">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6">
                             <hr />
-                            <img class="college-img" src="imgs/gmit.jpg" />
+                            <div class="frameworks">
+                                <h3>Languages and Frameworks</h3>
+                                <ol class="rectangle-list">
+                                    <li><a href="">Java</a></li>
+                                    <li><a href="">C#</a></li>
+                                    <li><a href="">JavaScript</a></li>
+                                    <li><a href="">HTML5/CSS3</a></li>
+                                    <li><a href="">Bootstrap</a></li>
+                                    <li><a href="">jQuery</a></li>
+                                </ol>
+                            </div>
                             <hr />
                         </div>
-                        <div class="col-sm-8" id="college-modules">
+                        <div class="col-sm-6">
                             <hr />
-                            <h3>Galway-Mayo Institute of Technology</h3>
-                            <p></p>
+                            <div class="tools">
+                                <h3>Tools and Experience</h3>
+                                <ol class="rectangle-list">
+                                    <li><a href="">Eclipse</a></li>
+                                    <li><a href="">Linux</a></li>
+                                    <li><a href="">Node</a></li>
+                                    <li><a href="">Git</a></li>
+                                    <li><a href="">Visual Studio</a></li>
+                                    <li><a href="">Agile Methodologies</a></li>
+                                </ol>
+                            </div>
                             <hr />
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-4">
-                        
+            </section>
+            
+            <section id="education">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="college-icon">
+                                <hr />
+                                <h3>Galway-Mayo Institute of Technology</h3>
+                                <img class="college-img" src="imgs/gmit.jpg" />
+                                <hr />
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="college-icon">
+                                <hr />
+                                <h3>Galway Technical Institute</h3>
+                                <img class="college-img" src="imgs/gti.jpg" />
+                                <hr />
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <!-- Profile Inroduction -->
-            <!--<div id="profile" role="contentinfo">
-                <header><h2>Profile:</h2></header>
-                <article>Daniel is a hardworking individual, and uses his motivation and passion to use technology in tandem to achieve project goals. <hr> Daniel excels when working in a team as he enjoys sharing ideas and working with
-                    individuals to collaborate on projects and work in tandem to achieve project deadlines. <hr> He possess adept leadership skills but can easily intergrate into a team of variant personalities.
-                </article>
-            </div>-->
             <!-- End Profile Introduction -->
             <div class="container">
                 <div class="row">
-                    <h1>Bootstrap 3 Lightbox using Modal</h1>
+                    <h1>Projects:</h1>
                     <div class="row">
                         <div class="col-lg-3 col-sm-4 col-xs-6"><a title="Java Word Cloud" href="#"><img class="thumbnail img-responsive" src="imgs/java-word-cloud.png"></a></div>
                         <div class="col-lg-3 col-sm-4 col-xs-6"><a title="Rock Paper Scissors JS" href="#"><img class="thumbnail img-responsive" src="imgs/rock-paper-scissors.png"></a></div>
@@ -264,13 +265,15 @@
                         <a class="media-link" href="https://medium.com/@danielmaloneygti"><img src="imgs/Medium.png" /></a>
                     </ul>
                     <p>Created by Daniel Maloney</p>
+                    <p>danielmaloneygti@gmail.com</p>
                 </div>
             </footer>
             <!-- End Footer -->
         </main>
         <!-- End CV -->
         <script src="js/jquery-3.1.1.min.js"></script>
-        <script src="js/update-nav.js"></script>
+        <script src="js/update-carousel.js"></script>
+        <script src="js/smooth-nav.js"></script>
         <script src="js/bootstrap.min.js"></script>
     </body>
 
