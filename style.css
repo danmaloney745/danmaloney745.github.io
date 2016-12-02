@@ -29,10 +29,6 @@ small {
     display: block;
 }
 
-#email {
-    color: coral;
-}
-
 /* Navigation Menu Styling */
 #nav {
     list-style-type: none;
@@ -186,9 +182,6 @@ a {
     /*background: rgba(0, 0, 0, 0.75);*/
 }
 
-.contact{
-    color: black;
-}
 /* End Contact Detials Styling */
 
 /* Media Links Styling*/
