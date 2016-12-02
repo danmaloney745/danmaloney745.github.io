@@ -19,7 +19,7 @@
 
     <body>
         <main class="cv" role="main">
-             <nav class="navbar navbar-default navbar-fixed-top">
+             <nav id="main-nav" class="navbar navbar-default navbar-fixed-top">
                 <div class="container-fluid">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
@@ -34,12 +34,12 @@
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
+                    <ul class="nav navbar-nav navbar-right">
                         <li class="active"><a href="#contact-details">Profile<span class="sr-only">(current)</span></a></li>
-                        <li><a id="#contactLink" href="#contact-details">Contact Details</a></li>
-                        <li><a id="#experienceLink" href="#experience">Experience</a></li>
-                        <li><a id="educationLink" href="#education">Education</a></li>
-                        <li><a id="#projectsLink" href="#projects">Projects</a></li>
+                        <li><a href="#contact-details">Contact Details</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#projects">Projects</a></li>
                     </ul>
                     </div><!-- /.navbar-collapse -->
                 </div><!-- /.container-fluid -->
@@ -53,12 +53,12 @@
                     </div>
                     <div class="container">
                         <div class="row">
-                            <h4 class="welcome-title aniamted shake">Welcome, I'm Daniel Maloney
+                            <h4 class="title animated rubberBand">Welcome, I'm Daniel Maloney
                                 <small>“Websites should look good from the inside and out.” ― Paul Cookson</small>
                             </h4>
                             <hr />
                         </div>
-                        <div class="row">
+                        <div class="row animated fadeInLeft">
                             <div class="col-sm-1 col-sm-offset-3">
                                 <a class="media-link" href="https://github.com/danmaloney745"><img src="imgs/GitHub.png" /></a>
                             </div>
@@ -87,10 +87,10 @@
                             <!--<img src="imgs/jumbo-image.jpg"/>-->
                         </div>
                         <div class="container">
-                            <div class="row">
+                            <div class="row animated fadeInLeft">
                                 <div class="col-sm-12">
                                     <div>
-                                        <h4 class="welcome-title text-left">Daniel Maloney
+                                        <h4 class="title text-left">Daniel Maloney
                                             <small class="text-left">Web Developer at Sparta Global</small>
                                         </h4>
                                     </div>
@@ -110,30 +110,37 @@
 
             <section id="contact-details" role="contentinfo">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-sm-4 contact">
-                            <hr />
-                            <div class="contact-item">
-                                <img src="imgs/Paper-Plane.png" />
-                                <p id="email">danielmaloneygti@gmail.com</p>
-                            </div>
-                            <hr />
+                    <div class="jumbotron">
+                        <div class=img>
+                        <!--<image src="imgs/code-image.jpg" />-->
                         </div>
-                        <div class="col-sm-4 contact">
-                            <hr />
-                            <div class="contact-item">
-                                <img src="imgs/Phone.png" />
-                                <p>07597701962</p>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-4 contact">
+                                    <hr />
+                                    <div class="animated fadeInLeft contact-item">
+                                        <img src="imgs/Paper-Plane.png" />
+                                        <p id="email">danielmaloneygti@gmail.com</p>
+                                    </div>
+                                    <hr />
+                                </div>
+                                <div class="col-sm-4 contact">
+                                    <hr />
+                                    <div class="animated contact-item">
+                                        <img src="imgs/Phone.png" />
+                                        <p>07597701962</p>
+                                    </div>
+                                    <hr />
+                                </div>
+                                <div class="col-sm-4 contact">
+                                    <hr />
+                                    <div class="animated fadeInRight contact-item">
+                                        <img src="imgs/Marker.png" />
+                                        <p>Watford, London</p>
+                                    </div>
+                                    <hr />
+                                </div>
                             </div>
-                            <hr />
-                        </div>
-                        <div class="col-sm-4 contact">
-                            <hr />
-                            <div class="contact-item">
-                                <img src="imgs/Marker.png" />
-                                <p>Watford, London</p>
-                            </div>
-                            <hr />
                         </div>
                     </div>
                 </div>
@@ -141,36 +148,43 @@
             
             <section id="skills" role="contentinfo">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <hr />
-                            <div class="frameworks">
-                                <h3>Languages and Frameworks</h3>
-                                <ol class="rectangle-list">
-                                    <li><a href="">Java</a></li>
-                                    <li><a href="">C#</a></li>
-                                    <li><a href="">JavaScript</a></li>
-                                    <li><a href="">HTML5/CSS3</a></li>
-                                    <li><a href="">Bootstrap</a></li>
-                                    <li><a href="">jQuery</a></li>
-                                </ol>
-                            </div>
-                            <hr />
+                    <div class="jumbotron">
+                        <div class=img>
+                        <!--<image src="imgs/code-image.jpg" />-->
                         </div>
-                        <div class="col-sm-6">
-                            <hr />
-                            <div class="tools">
-                                <h3>Tools and Experience</h3>
-                                <ol class="rectangle-list">
-                                    <li><a href="">Eclipse</a></li>
-                                    <li><a href="">Linux</a></li>
-                                    <li><a href="">Node</a></li>
-                                    <li><a href="">Git</a></li>
-                                    <li><a href="">Visual Studio</a></li>
-                                    <li><a href="">Agile Methodologies</a></li>
-                                </ol>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <hr />
+                                    <div class="frameworks">
+                                        <h3>Languages and Frameworks</h3>
+                                        <ol class="rectangle-list">
+                                            <li><a href="">Java</a></li>
+                                            <li><a href="">C#</a></li>
+                                            <li><a href="">JavaScript</a></li>
+                                            <li><a href="">HTML5/CSS3</a></li>
+                                            <li><a href="">Bootstrap</a></li>
+                                            <li><a href="">jQuery</a></li>
+                                        </ol>
+                                    </div>
+                                    <hr />
+                                </div>
+                                <div class="col-sm-6">
+                                    <hr />
+                                    <div class="tools">
+                                        <h3>Tools and Experience</h3>
+                                        <ol class="rectangle-list">
+                                            <li><a href="">Eclipse</a></li>
+                                            <li><a href="">Linux</a></li>
+                                            <li><a href="">Node</a></li>
+                                            <li><a href="">Git</a></li>
+                                            <li><a href="">Visual Studio</a></li>
+                                            <li><a href="">Agile Methodologies</a></li>
+                                        </ol>
+                                    </div>
+                                    <hr />
+                                </div>
                             </div>
-                            <hr />
                         </div>
                     </div>
                 </div>
@@ -178,35 +192,89 @@
             
             <section id="education">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="college-icon">
-                                <hr />
-                                <h3>Galway-Mayo Institute of Technology</h3>
-                                <img class="college-img" src="imgs/gmit.jpg" />
-                                <hr />
-                            </div>
+                    <div class="jumbotron">
+                        <div class=img>
+                        <!--<image src="imgs/code-image.jpg" />-->
                         </div>
-                        <div class="col-sm-6">
-                            <div class="college-icon">
-                                <hr />
-                                <h3>Galway Technical Institute</h3>
-                                <img class="college-img" src="imgs/gti.jpg" />
-                                <hr />
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <h1>Education</h1>
+                                </div>
+                                <div class="col-sm-6">
+                                    <hr />
+                                    <h4>Computing in Software Development
+                                        <small><em>2012 - 2016</em></small>
+                                    </h4>
+                                    <img class="college-img" src="imgs/gmit.jpg" />      
+                                    <div>
+                                        <p>Technologies used:</p>
+                                        <p>Node.js, MongoDB, HTML5, CSS3, Bootsrap and JavaScript.
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <hr />
+                                    <h4>Galway Technical Institute
+                                        <small><em>2011 - 2012</em></small>
+                                    </h4>
+                                    <img class="college-img" src="imgs/gti.jpg" />
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <hr />
+            </section>
+
+            <section id="experience">
+                <div class="container">
+                    <div class="jumbotron">
+                        <div class=img>
+                        <!--<image src="imgs/code-image.jpg" />-->
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <h1>Experience</h1>
+                                </div>
+                                <div class="col-sm-6">
+                                    <hr />
+                                    <img class="college-img" src="imgs/spartaglobal-logo.jpeg" />
+                                    <h4 class="title">Web Developer
+                                        <small><em>2016 - Present</em></small>
+                                    </h4>
+                                    <h4 />
+                                    <div>
+                                        <p>Technologies used:</p>
+                                        <p>Node.js, MongoDB, HTML5, CSS3, Bootsrap and JavaScript.
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <hr />
+                                    <img class="college-img" src="imgs/claregalway-hotel.png" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr />
             </section>
 
             <!-- End Profile Introduction -->
             <div class="container">
-                <div class="row">
-                    <h1>Projects:</h1>
-                    <div class="row">
-                        <div class="col-lg-3 col-sm-4 col-xs-6"><a title="Java Word Cloud" href="#"><img class="thumbnail img-responsive" src="imgs/java-word-cloud.png"></a></div>
-                        <div class="col-lg-3 col-sm-4 col-xs-6"><a title="Rock Paper Scissors JS" href="#"><img class="thumbnail img-responsive" src="imgs/rock-paper-scissors.png"></a></div>
-                        <div class="col-lg-3 col-sm-4 col-xs-6"><a title="Countdown Python" href="#"><img class="thumbnail img-responsive" src="imgs/Countdown.jpg"></a></div>
+                <div class="jumbotron">
+                    <div class=img>
+                        <!--<image src="imgs/code-image.jpg" />-->
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <h3>Projects:</h3>
+                            <div class="row">
+                                <div class="col-lg-3 col-sm-4 col-xs-6"><a title="Java Word Cloud" href="#"><img class="thumbnail img-responsive" src="imgs/java-word-cloud.png"></a></div>
+                                <div class="col-lg-3 col-sm-4 col-xs-6"><a title="Rock Paper Scissors JS" href="#"><img class="thumbnail img-responsive" src="imgs/rock-paper-scissors.png"></a></div>
+                                <div class="col-lg-3 col-sm-4 col-xs-6"><a title="Countdown Python" href="#"><img class="thumbnail img-responsive" src="imgs/Countdown.jpg"></a></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -238,26 +306,37 @@
             </div>
 
             <div class="container">
-                <form>
-                    <div class="form-group row">
-                        <label for="inputName" class="col-sm-2 col-form-label">Name</label>
-                        <div class="col-sm-10">
-                            <input type="text" class="form-control" id="inputName" placeholder="Name">
+                <div class="jumbotron">
+                    <div class=img>
+                        <!--<image src="imgs/code-image.jpg" />-->
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <form role="form">
+                                    <div class="form-group row">
+                                        <label for="inputName" class="col-sm-2 col-form-label">Name</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control" id="inputName" placeholder="Name">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+                                        <div class="col-sm-10">
+                                            <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label for="messageTextarea" class="col-sm-2 col-form-label">Message</label>
+                                        <div class="col-sm-10">
+                                            <textarea class="form-control" id="messageTextarea" placeholder="Message:" rows="3"></textarea>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
-                    <div class="form-group row">
-                        <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
-                        <div class="col-sm-10">
-                            <input type="email" class="form-control" id="inputEmail" placeholder="Email">
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="messageTextarea" class="col-sm-2 col-form-label">Message</label>
-                        <div class="col-sm-10">
-                            <textarea class="form-control" id="messageTextarea" placeholder="Message:" rows="3"></textarea>
-                        </div>
-                    </div>
-                </form>
+                </div>
             </div>
             <!-- Footer -->
             <footer>
